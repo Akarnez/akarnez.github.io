@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hons 499 Project</title>
+    <link rel="stylesheet" href="project_499.css">
+    <script src="project_499.js"></script>
+</head>
+<body onload="gameStart()">
+    <img id="title" src="./title.jpg">
+     <!-- <h1>Artificial Intelligence</h1> -->
+     <!-- <label>Select Picture:</label> -->
+     <!-- <select id="picture">
+         <option value="Si">Silicon</option>
+         <option value="BJT">Transistor</option>
+         <option value="IC">Integrated Circuit</option>
+         <option value="PC">Personal Computer</option>
+         <option value="AI">Artificial Intelligence</option>
+     </select> -->
+     <div id="board"></div>
+     <h1>Turns: <span id="turns">0</span></h1>
+     <!-- <div id="success">
+        <label>Success!</label>
+        <button id="resetBtn" onclick="gameStart()">Reset</button>
+     </div> -->
+     <div id="overlay">
+        <div id="overlayText">This will show information on the topics at hand in the final version</div>
+        <button id="resetBtn" onclick="resetGame()">Reset</button>
+        <button id="nextLvlBtn" onclick="lvlUp()">Next</button>
+     </div>
+     <div id="reference">
+        <label>Reference:</label><br>
+        <img id="refImage">
+     </div>
+</body>
+</html>
