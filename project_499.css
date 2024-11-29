@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #0c67ae;
+    color: #53a1f0;
 }
 
 #title{
@@ -13,7 +13,7 @@ body{
     width: 360px;
     height: 360px;
     background-color: lightblue;
-    border: 10px solid #0c67ae;
+    border: 10px solid #53a1f0;
 
     margin: 0 auto;
     display: flex;
@@ -23,7 +23,7 @@ body{
 #board img{
     width: 118px;
     height: 118px;
-    border: 1px solid #0c67ae;
+    border: 1px solid #53a1f0;
     cursor: pointer;
 }
 
@@ -50,7 +50,8 @@ body{
 }
 
 #overlayText {
-    position: absolute;
+    position: relative;
+    text-wrap: balance;
     top: 50%;
     left: 50%;
     font-size: 50px;
@@ -59,26 +60,44 @@ body{
     -ms-transform: translate(-50%, -50%);
 }
 
+#overlayLink {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 #resetBtn {
-    position: relative;
-    top: 75%;
-    left: 0%;
-    /* transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); */
+    position: absolute;
+    top: 290px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 #nextLvlBtn {
-    position: relative;
-    top: 75%;
-    left: 0%;
-    /* transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); */
+    position: absolute;
+    top: 290px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 #reference {
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 28%;
+    top: 160px;
     left: 60%;
+}
+
+#reference img{
+    border: 5px solid #53a1f0;
+}
+
+#warningLabel {
+    font-size: 25px;
 }
