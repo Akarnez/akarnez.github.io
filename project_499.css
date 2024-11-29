@@ -72,7 +72,7 @@ body{
 
 #resetBtn {
     position: absolute;
-    top: 290px;
+    top: 250px;
     left: 48%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -80,7 +80,7 @@ body{
 
 #nextLvlBtn {
     position: absolute;
-    top: 290px;
+    top: 250px;
     left: 52%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -96,8 +96,4 @@ body{
 
 #reference img{
     border: 5px solid #53a1f0;
-}
-
-#warningLabel {
-    font-size: 25px;
 }
