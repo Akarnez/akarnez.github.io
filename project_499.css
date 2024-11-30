@@ -63,19 +63,11 @@ body{
 }
 
 #resetBtn {
-    position: absolute;
-    top: 250px;
-    left: 48%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    position: relative;
 }
 
 #nextLvlBtn {
-    position: absolute;
-    top: 250px;
-    left: 52%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    position: relative;
 }
 
 #reference {
