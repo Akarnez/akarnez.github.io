@@ -69,6 +69,7 @@ function gameStart() {
         }
     }
     document.getElementById("refImage").src = images[num].source;
+    checkInfo(); // checks to see if the directions should be shown
 }
 
 function dragStart() {
@@ -247,5 +248,14 @@ function infoText() {
         default:
             link.innerHTML = '<a href="https://www.wevolver.com/article/silicon-semiconductor" title="Silicon">Silicon</a>';
             text.firstChild.data = "Silicon is a semiconductor that has been commonly used in computers and computer components since the 1950's. For more information, click the link below."
+    }
+}
+
+function checkInfo() {
+    if(num == 0) {
+        document.getElementById("infoText").style.display = "block";
+    }
+    else {
+        document.getElementById("infoText").style.display = "none"
     }
 }
