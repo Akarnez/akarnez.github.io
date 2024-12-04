@@ -81,3 +81,13 @@ body{
 #reference img{
     border: 5px solid #53a1f0;
 }
+
+#infoText {
+    height: 140px;
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    font-size: larger;
+    border: 3px solid;
+}
